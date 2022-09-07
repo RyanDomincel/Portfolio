@@ -4,6 +4,7 @@ import Proj3 from "../../assets/proj3.png";
 import Proj4 from "../../assets/proj4.png";
 import Proj5 from "../../assets/proj5.png";
 import Proj6 from "../../assets/proj6.png";
+import Proj7 from "../../assets/proj7.png";
 export const ProjectList = [
   {
     name: "IPR Company",
@@ -41,5 +42,11 @@ export const ProjectList = [
     image: Proj6,
     skills: "HTML, Css, JavaScript, Bootstrap, Laravel, PHP, MySql",
     link: "https://github.com/RyanDomincel/SBOVotingSystem",
+  },
+  {
+    name: "Real-Time Weather App",
+    image: Proj6,
+    skills: "HTML, Css, Tailwind Css, ReactJs, Weather API",
+    link: "https://ryandomincel.github.io/Weather-app-with-API/",
   },
 ];

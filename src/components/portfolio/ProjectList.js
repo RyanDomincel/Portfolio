@@ -45,7 +45,7 @@ export const ProjectList = [
   },
   {
     name: "Real-Time Weather App",
-    image: Proj6,
+    image: Proj7,
     skills: "HTML, Css, Tailwind Css, ReactJs, Weather API",
     link: "https://ryandomincel.github.io/Weather-app-with-API/",
   },

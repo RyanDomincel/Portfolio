@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <section className="services section" id="portfolio">
       <h2 className="section__title">Portfolio</h2>
-      <span className="section__subtitle">Some of my Work</span>
+      <span className="section__subtitle">Some of my work</span>
 
       <div className=" portfolio__container container grid">
         {ProjectList.map((project, idx) => {

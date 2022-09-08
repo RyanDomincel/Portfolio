@@ -19,6 +19,7 @@ export const ProjectList = [
     skills: "HTML5, Css3",
     link: "https://ryandomincel.github.io/PersonalBlog/html/",
   },
+
   {
     name: "Todo App",
     image: Proj3,
@@ -26,10 +27,10 @@ export const ProjectList = [
     link: "https://ryandomincel.github.io/my-todo-app/",
   },
   {
-    name: "Online Library",
-    image: Proj5,
-    skills: "HTML5, Css3, Bootstrap 5",
-    link: "https://ryandomincel.github.io/OnlineLibrary/",
+    name: "Real-Time Weather App",
+    image: Proj7,
+    skills: "HTML, Css, Tailwind Css, ReactJs, Weather API",
+    link: "https://ryandomincel.github.io/Weather-app-with-API/",
   },
   {
     name: "BurgerQueen",
@@ -38,15 +39,15 @@ export const ProjectList = [
     link: "https://ryandomincel.github.io/BurgerQueen/",
   },
   {
+    name: "Online Library",
+    image: Proj5,
+    skills: "HTML5, Css3, Bootstrap 5",
+    link: "https://ryandomincel.github.io/OnlineLibrary/",
+  },
+  {
     name: "SBO Voting System",
     image: Proj6,
     skills: "HTML, Css, JavaScript, Bootstrap, Laravel, PHP, MySql",
     link: "https://github.com/RyanDomincel/SBOVotingSystem",
-  },
-  {
-    name: "Real-Time Weather App",
-    image: Proj7,
-    skills: "HTML, Css, Tailwind Css, ReactJs, Weather API",
-    link: "https://ryandomincel.github.io/Weather-app-with-API/",
   },
 ];

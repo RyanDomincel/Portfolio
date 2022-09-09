@@ -5,6 +5,7 @@ import Proj4 from "../../assets/proj4.png";
 import Proj5 from "../../assets/proj5.png";
 import Proj6 from "../../assets/proj6.png";
 import Proj7 from "../../assets/proj7.png";
+import Proj8 from "../../assets/proj8.png";
 export const ProjectList = [
   {
     name: "IPR Company",
@@ -37,6 +38,12 @@ export const ProjectList = [
     image: Proj2,
     skills: "HTML5, Css3, JavaScript, Bootstrap 5",
     link: "https://ryandomincel.github.io/BurgerQueen/",
+  },
+  {
+    name: "Team Member Allocation App",
+    image: Proj8,
+    skills: "HTML5, Css3, Bootstrap 5, ReactJs",
+    link: "https://RyanDomincel.github.io/team-member-allocation-app/",
   },
   {
     name: "Online Library",

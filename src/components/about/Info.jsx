@@ -1,6 +1,9 @@
 import React from "react";
+import { ProjectList } from "../portfolio/ProjectList";
 
 const Info = () => {
+  const project = ProjectList.length;
+
   return (
     <div className="about__info grid">
       <div className="about__box">
@@ -11,7 +14,9 @@ const Info = () => {
       <div className="about__box">
         <i class="bx bx-briefcase-alt about__icon"></i>
         <h3 className="about__title">Completed</h3>
-        <span className="about__subtitle">5 Projects and counting...</span>
+        <span className="about__subtitle">
+          {project} Projects and counting...
+        </span>
       </div>
       <div className="about__box">
         <i class="bx bx-support about__icon"></i>

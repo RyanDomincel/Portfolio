@@ -6,6 +6,7 @@ import Proj5 from "../../assets/proj5.png";
 import Proj6 from "../../assets/proj6.png";
 import Proj7 from "../../assets/proj7.png";
 import Proj8 from "../../assets/proj8.png";
+import Proj9 from "../../assets/proj9.png";
 export const ProjectList = [
   {
     name: "IPR Company",
@@ -33,17 +34,24 @@ export const ProjectList = [
     skills: "HTML, Css, Tailwind Css, ReactJs, Weather API",
     link: "https://ryandomincel.github.io/Weather-app-with-API/",
   },
-  {
-    name: "BurgerQueen",
-    image: Proj2,
-    skills: "HTML5, Css3, JavaScript, Bootstrap 5",
-    link: "https://ryandomincel.github.io/BurgerQueen/",
-  },
+
   {
     name: "Team Member Allocation App",
     image: Proj8,
     skills: "HTML5, Css3, Bootstrap 5, ReactJs",
     link: "https://RyanDomincel.github.io/team-member-allocation-app/",
+  },
+  {
+    name: "My Portfolio v1.0",
+    image: Proj9,
+    skills: "HTML5, Css3, JavaScript, Tailwind CSS",
+    link: "https://ryandomincel.github.io/My-Portfolio/",
+  },
+  {
+    name: "BurgerQueen",
+    image: Proj2,
+    skills: "HTML5, Css3, JavaScript, Bootstrap 5",
+    link: "https://ryandomincel.github.io/BurgerQueen/",
   },
   {
     name: "Online Library",

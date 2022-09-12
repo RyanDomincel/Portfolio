@@ -144,41 +144,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">
-                  Instructor & Graphic Designer
-                </h3>
-                <span className="qualification__subtitle">Kapatagan - ICI</span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2016-2022 (6 Years)
-                </div>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">Front-end Developer</h3>
-                <span className="qualification__subtitle">
-                  Finland - Statbeat Oy
-                </span>
-                <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> Feb 2020 - March 2020
-                  (2 mos)
-                </div>
-              </div>
-            </div>
+            {/* Mogul Marketeers */}
 
             <div className="qualification__data">
               <div></div>
@@ -197,6 +163,44 @@ const Qualification = () => {
                 </div>
               </div>
             </div>
+            {/* Backend Dev */}
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Front-end Developer</h3>
+                <span className="qualification__subtitle">
+                  Finland - Statbeat Oy
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> Feb 2020 - March 2020
+                  (2 mos)
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            {/* Frontend Dev */}
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">
+                  Instructor & Graphic Designer
+                </h3>
+                <span className="qualification__subtitle">Kapatagan - ICI</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2016-2022 (6 Years)
+                </div>
+              </div>
+            </div>
+            {/* ICI work */}
 
             <div className="qualification__data">
               <div>
@@ -212,6 +216,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+            {/* Web Dev Freelancing */}
           </div>
         </div>
       </div>

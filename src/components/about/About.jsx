@@ -16,12 +16,12 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Highly motivated and goal-driven individual that is hungry for
-            learning new skills. Well-versed with Web Development Languages such
-            as Html, CSS, JavaScript. Also in Microsoft Office and Google Suite.
-            Seeking a job in a creative team where I can apply my knowledge of
-            diverse skills sets. I am a hardworking person and have the ability
-            to manage work under pressure.
+            A highly motivated and goal-driven individual that is hungry to
+            learn new skills. Well-versed with Web Development Languages such as
+            Html, CSS, and JavaScript. Also in Microsoft Office and Google
+            Suite. Seeking a job in a creative team where I can apply my
+            knowledge of diverse skill sets. I am a hardworking person and have
+            the ability to manage work under pressure.
           </p>
           <a download="" href={CV} className="button button--flex">
             Download CV

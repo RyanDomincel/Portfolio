@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -204,10 +204,11 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Website Development</h3>
-                <span className="qualification__subtitle">Freelancing</span>
+                <h3 className="qualification__title">Software Developer</h3>
+                <span className="qualification__subtitle">Dice 205</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt"></i> 2022 - Present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023 (4
+                  Months)
                 </div>
               </div>
 
@@ -217,6 +218,23 @@ const Qualification = () => {
               </div>
             </div>
             {/* Web Dev Freelancing */}
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Software Developer</h3>
+                <span className="qualification__subtitle">CXFabric LLC</span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt"></i> 2022-2024 (1 Year & 7
+                  Months)
+                </div>
+              </div>
+            </div>
+            {/* ICI work */}
           </div>
         </div>
       </div>
